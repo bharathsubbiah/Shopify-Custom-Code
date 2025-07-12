@@ -1,0 +1,80 @@
+<div style="max-width: 500px; margin: auto; font-family: Arial, sans-serif; font-size: 14px; color: #333; padding: 15px;">
+<!-- MOST POPULAR Badge -->
+<div style="
+  display: inline-block;
+  background: linear-gradient(to right, #b0dc63, #00a0e3);
+  color: white;
+  font-size: 12px;
+  font-weight: bold;
+  padding: 6px 20px;
+  border-top-left-radius: 16px;
+  border-top-right-radius: 16px;
+  border-bottom-left-radius: 0;
+  border-bottom-right-radius: 0;
+  text-align: center;
+  margin: 0 auto;
+">
+  🔥SUBSCRIBE & GET
+</div>
+
+  <!-- Section 1: Offer Announcement -->
+  <div style="margin-bottom: 25px;">
+    <p style="font-weight: bold; font-size: 15px;">
+      Offers End's on <span style="color: #d6336c;">October End</span>!!!
+    </p>
+    <p>Get a Free 1-Year Membership ( ₹999 value ) – Just Follow Us on Instagram!</p>
+    
+    <h4 style="font-size: 15px; font-weight: bold; margin-top: 20px;">Here’s How to Claim Your Membership:</h4>
+    <ol style="padding-left: 18px;">
+      <li>Follow us on Instagram – 
+        <a href="https://www.instagram.com/themonkeymerch.comm?igsh=aWEwZnJndG5xN3Vp" target="_blank" style="color: #0077c4; text-decoration: none;">@TheMonkeyMerch</a>
+      </li>
+      <li>Comment ‘10% off’ on any reel!</li>
+      <li>Receive your exclusive 10% coupon code and use it at checkout</li>
+      <li>You'll also receive The Black & Blue Membership Card with your delivery</li>
+    </ol>
+  </div>
+
+  <!-- Section 2: What's Included -->
+  <div style="background-color: #f3eefe; border-radius: 12px; padding: 15px; margin-bottom: 25px; text-align: left;">
+    <h4 style="text-align: center; font-size: 15px; font-weight: bold; margin-bottom: 15px;">What Includes In Subscription?</h4>
+    <ul style="list-style: none; padding-left: 0;">
+      <li style="margin-bottom: 10px;">✅ 1-Year Vip Membership + Premium Card <strong>(Worth ₹999)</strong></li>
+      <li style="margin-bottom: 10px;">✅ Extra 10% OFF on every order – <strong>no limits!</strong></li>
+      <li style="margin-bottom: 10px;">✅ Free Gift Worth ₹199 with every order 🎁</li>
+    </ul>
+  </div>
+
+  <!-- Section 3: Free Gifts -->
+  <div style="text-align: center;">
+    <h4 style="font-size: 15px; font-weight: bold; margin-bottom: 15px;">🎁 Free Gifts On Every Order</h4>
+    <div style="display: flex; flex-wrap: wrap; justify-content: center; gap: 12px;">
+
+      <!-- Gift 1 -->
+      <div style="border: 2px dashed #1d8ddc; border-radius: 10px; padding: 10px; width: 45%; min-width: 110px;">
+        <img src="https://via.placeholder.com/60" alt="Free Mug" style="width: 100%; max-width: 60px; height: auto; margin-bottom: 5px;">
+        <div style="color: green; font-weight: bold;">FREE Mug</div>
+      </div>
+
+      <!-- Gift 2 -->
+      <div style="border: 2px dashed #1d8ddc; border-radius: 10px; padding: 10px; width: 45%; min-width: 110px;">
+        <img src="https://via.placeholder.com/60" alt="Free Whisk" style="width: 100%; max-width: 60px; height: auto; margin-bottom: 5px;">
+        <div style="color: green; font-weight: bold;">FREE Whisk</div>
+      </div>
+
+      <!-- Gift 3 -->
+      <div style="border: 2px dashed #1d8ddc; border-radius: 10px; padding: 10px; width: 45%; min-width: 110px;">
+        <img src="https://via.placeholder.com/60" alt="Free Spoon" style="width: 100%; max-width: 60px; height: auto; margin-bottom: 5px;">
+        <div style="color: green; font-weight: bold;">FREE Spoon</div>
+      </div>
+
+      <!-- Gift 4 -->
+      <div style="border: 2px dashed #1d8ddc; border-radius: 10px; padding: 10px; width: 45%; min-width: 110px;">
+        <img src="https://via.placeholder.com/60" alt="Free Spoon" style="width: 100%; max-width: 60px; height: auto; margin-bottom: 5px;">
+        <div style="color: green; font-weight: bold;">FREE Spoon</div>
+      </div>
+
+    </div>
+  </div>
+
+</div>
