@@ -1,0 +1,191 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Merged Layout</title>
+  <style>
+    * {
+      margin: 0;
+      padding: 0;
+      box-sizing: border-box;
+    }
+
+    body {
+      font-family: Arial, sans-serif;
+      background-color: #fff;
+      display: flex;
+      flex-wrap: wrap;
+      justify-content: center;
+      padding: 20px;
+      gap: 40px;
+    }
+
+    .container,
+    .wrapper,
+    .layout-wrapper {
+      max-width: 400px;
+      width: 100%;
+    }
+
+    .section {
+      margin-bottom: 30px;
+    }
+
+    img {
+      width: 100%;
+      border-radius: 12px;
+    }
+
+    .title {
+      font-size: 18px;
+      font-weight: bold;
+      margin: 20px 0 10px;
+      color: #222;
+      text-align: center;
+    }
+
+    .grid-4,
+    .grid-3,
+    .grid-2 {
+      display: grid;
+      gap: 10px;
+    }
+
+    .grid-4 {
+      grid-template-columns: repeat(4, 1fr);
+    }
+
+    .grid-3 {
+      grid-template-columns: repeat(3, 1fr);
+    }
+
+    .grid-2 {
+      grid-template-columns: repeat(2, 1fr);
+    }
+
+    .item,
+    .small-box,
+    .grid-item,
+    .half-width {
+      text-align: center;
+      font-size: 12px;
+      color: #333;
+    }
+
+    .item img,
+    .grid-item img,
+    .small-box img,
+    .half-width img {
+      width: 100%;
+      max-width: 60px;
+      height: auto;
+      margin: 0 auto 5px;
+      border-radius: 8px;
+    }
+
+    .link-box {
+      background-color: #f7f7f7;
+      border-radius: 10px;
+      padding: 10px;
+      text-align: center;
+    }
+
+    .promise-boxes {
+      display: flex;
+      justify-content: space-between;
+      gap: 10px;
+      font-size: 13px;
+    }
+
+    .promise-item {
+      flex: 1;
+      border: 1px solid #eee;
+      border-radius: 8px;
+      padding: 10px;
+      text-align: center;
+    }
+
+    a {
+      text-decoration: none;
+      color: inherit;
+    }
+
+    @media (max-width: 768px) {
+      body {
+        flex-direction: column;
+        align-items: center;
+      }
+      .grid-4 {
+        grid-template-columns: repeat(3, 1fr);
+      }
+      .grid-2,
+      .grid-3 {
+        grid-template-columns: repeat(2, 1fr);
+      }
+    }
+  </style>
+</head>
+<body>
+  <!-- Left Layout -->
+  <div class="container">
+    <div class="section">
+      <a href="#"><img src="https://cdn.shopify.com/s/files/1/0647/1204/8729/files/1_d58b1f7b-0f4f-4c10-a514-a887898a5811.png?v=1753071403" alt="Rakhi Banner"></a>
+    </div>
+    <div class="section title">Latest Collection Alert</div>
+    <div class="section title">Girl’s Wardrobe</div>
+    <div class="grid-4">
+      <a class="item" href="#"><img src="" alt=""><div>B’day Fits</div></a>
+      <!-- Repeat more categories -->
+    </div>
+    <div class="section">
+      <a href="#"><img src="https://cdn.shopify.com/s/files/1/0647/1204/8729/files/2_b8fd565d-b19b-49cd-af46-2d042a5e1408.png?v=1753073263" alt="Bestsellers"></a>
+    </div>
+    <div class="section title">Multipacks: Pack of 2, 3 & More</div>
+    <div class="grid-2">
+      <a class="link-box" href="#"><img src="" alt=""><p>Cool Tops</p></a>
+      <!-- More multipacks -->
+    </div>
+  </div>
+
+  <!-- Center Layout -->
+  <div class="wrapper">
+    <div class="section"><a href="#"><img src="https://cdn.shopify.com/s/files/1/0647/1204/8729/files/2_b8fd565d-b19b-49cd-af46-2d042a5e1408.png?v=1753073263" /></a></div>
+    <div class="section"><a href="#"><img src="https://cdn.shopify.com/s/files/1/0647/1204/8729/files/ChatGPT_Image_Jul_21_2025_10_28_53_AM.png?v=1753073953" /></a></div>
+    <div class="section title">Boy’s Wardrobe</div>
+    <div class="grid-4">
+      <a class="grid-item" href="#"><img src="https://i.imgur.com/Kh8KkQk.png" /><div>B'day Fits</div></a>
+      <!-- More boys wardrobe items -->
+    </div>
+    <div class="section title">Shop by Occasion</div>
+    <div class="grid-2">
+      <a class="half-width" href="#"><img src="https://i.imgur.com/vNzSzXB.png" /></a>
+      <!-- More occasions -->
+    </div>
+  </div>
+
+  <!-- Right Layout -->
+  <div class="layout-wrapper">
+    <div class="section"><a href="#"><img src="https://cdn.shopify.com/s/files/1/0647/1204/8729/files/2_b8fd565d-b19b-49cd-af46-2d042a5e1408.png?v=1753073263" /></a></div>
+    <div class="section"><a href="#"><img src="https://cdn.example.com/applique.jpg" /></a><div class="title">Steals You Can't Miss</div></div>
+    <div class="section title">Top Picks at 70% Off</div>
+    <div class="grid-3">
+      <a class="small-box" href="#"><img src="https://cdn.example.com/p1.jpg" /><div>Party</div></a>
+      <!-- More picks -->
+    </div>
+    <div class="section"><a href="#"><img src="https://cdn.example.com/deal.jpg" /></a></div>
+    <div class="section"><a href="#"><img src="https://cdn.example.com/flat-off.jpg" /></a></div>
+    <div class="section title">The Hopscotch Promise</div>
+    <div class="promise-boxes">
+      <div class="promise-item">Easy Returns</div>
+      <div class="promise-item">100% Genuine</div>
+      <div class="promise-item">Quick Delivery</div>
+    </div>
+    <div class="section title">Li’l Stars, Big #HopscotchMoment</div>
+    <div class="grid-3">
+      <div><img src="https://cdn.example.com/baby1.jpg" /></div>
+      <!-- More star kids -->
+    </div>
+  </div>
+</body>
+</html>
